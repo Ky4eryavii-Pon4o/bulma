@@ -4,7 +4,7 @@ tagline: Bulma Clean Theme
 email: root@patap.org.ua
 description: >
   The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/"
+baseurl: ""
 url: "https://it.patap.org.ua"
 permalink: pretty
 #favicon: /path/to/favicon.png
