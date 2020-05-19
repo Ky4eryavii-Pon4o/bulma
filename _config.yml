@@ -1,10 +1,10 @@
 # Site Settings
 title: Patap
-tagline: Bulma Clean Theme
+tagline: Ride hard die fast
 email: root@patap.org.ua
 description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: ""
+  Jekyll with bulma theme on GitHub 
+baseurl: "/"
 url: "https://it.patap.org.ua"
 permalink: pretty
 #favicon: /path/to/favicon.png
