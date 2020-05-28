@@ -8,7 +8,7 @@ baseurl: ""
 url: "it.patap.org.ua"
 permalink: pretty
 #favicon: /path/to/favicon.png
-gh_sponsor: chrisrhymes
+#gh_sponsor: chrisrhymes
 
 paginate: 5
 paginate_path: "/blog/page:num"
@@ -28,7 +28,6 @@ plugins:
   - jekyll-seo-tag
   - kramdown
   - rouge
-  - jekyll-admin
 
 exclude: 
   - Gemfile
@@ -60,9 +59,9 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "Patap"
       layout: post
-      image: https://via.placeholder.com/1200x800
+      image: https://via.placeholder.com/800x600
       show_sidebar: true
 
 markdown: kramdown
