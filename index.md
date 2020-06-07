@@ -1,8 +1,8 @@
 ---
-title: Bulma Clean Theme
-subtitle: This is the demo site for Bulma Clean Theme
+title: Manuals
+subtitle: Web site with manuals
 layout: page
-callouts: home_callouts
+#callouts: home_callouts
 show_sidebar: true
 ---
 
