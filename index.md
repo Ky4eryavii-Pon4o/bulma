@@ -1,5 +1,5 @@
 ---
-#title: Bulma Clean Theme
+title: Bulma Clean
 #subtitle: This is the demo site for Bulma Clean Theme
 layout: blog
 #callouts: home_callouts
