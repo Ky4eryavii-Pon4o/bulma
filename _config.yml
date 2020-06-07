@@ -1,11 +1,10 @@
-# Site Settings
 title: Patap
-tagline: Ride hard die fast
+tagline: 'Ride hard die fast'
 email: root@patap.org.ua
 description: >
   Jekyll with bulma theme on GitHub 
-baseurl: "/blog"
-url: "it.patap.org.ua"
+baseurl: /blog
+url: ''
 permalink: pretty
 #favicon: /path/to/favicon.png
 #gh_sponsor: chrisrhymes
