@@ -3,7 +3,7 @@ tagline: Ride hard die fast
 email: root@patap.org.ua
 description: >
   Jekyll with bulma theme on GitHub 
-baseurl: ""
+baseurl:
 url: "it.patap.org.ua"
 permalink: pretty
 #favicon: /path/to/favicon.png
