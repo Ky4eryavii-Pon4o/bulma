@@ -10,10 +10,13 @@ Below shows how to change the screen resolution of Mac OS VirtualBox guest runni
 **Steps:**
 
 1. Open “Command Prompt”. (press Win + x and select “Command Prompt”)
-2. Navigate to VirtualBox folder in which “VBoxManage.exe” resides.\
+2. Navigate to VirtualBox folder in which “VBoxManage.exe” resides.
+
 <code>cd C: \ Program Files \ Oracle \ VirtualBox</code>
 
-3. Set resolution by typing the command below.\
+3. Set resolution by typing the command below.
+
 <code>VBoxManage setextradata "catalina2019" VBoxInternal2 / EfiGraphicsResolution 1440x900</code>\
 The third parameter (i.e. “catalina2019”) should be your VM name.
+
 4. Start the VM
