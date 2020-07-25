@@ -1,541 +1,1196 @@
-# bulma-clean-theme
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4b279297-bb48-46ee-9bfc-f3f435f083c0/deploy-status)](https://app.netlify.com/sites/bulma-jekyll/deploys)
-[![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
-![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
 
-This is a clean and simple Jekyll Theme built with the [Bulma](https://bulma.io/) framework, providing a modern looking site to start with. 
+Уважаемые пользователи данного ресурса! Большая просьба прочитать фак внимательно и весь, прежде чем задавать вопросы и приступать к действиям. В противном случае у новичков пазл в голове просто не сложиться.....Спасибо за понимание.
+***
 
-## Contents
+### Что такое Фрибут\Jtag\RGH ?
+***
+Это взломанный Dashboard, который можно установить на XBOX 360 (надо паять, но это того стоит)
 
-* [Installation](#installation)
-* [Usage](#usage)
-    * [Pages](#pages)
-        * [Page Hero](#page-hero)
-        * [Table Of Contents](#table-of-contents)
-    * [Posts](#posts)
-    * [Navigation](#navigation)
-    * [Colours and Styles](#colours-and-styles)
-    * [Sidebar Visibility](#sidebar-visibility)
-    * [Menubar](#menubar)
-    * [Tabs](#tabs)
-    * [Google Analytics](#google-analytics)
-    * [Footer](#footer)
-    * [Products](#products)
-    * [Scripts](#scripts)
-    * [Callouts](#callouts)
-    * [Favicon](#favicon)
-    * [Showcases](#showcases)
-    * [Sponsors](#sponsors)
-    * [Disqus](#disqus)
-* [Contributing](#contributing)
-* [Development](#development)
-* [Licence](#licence)
+Позволяет как минимум:
 
+1. Запускать игры без диска с любого носителя,любого объема и производителя (флешки, USB HDD, внутреннего HDD)
 
-## Installation
+info:при замене HDD никаких доп манипуляций для внутреннего 2,5 HDD не потребуется, просто нужно будет отфoрматировать его средствами xbox и у вас будет скажем 1TB вместо 250Gb.
 
-**This theme requires Jekyll 3.8 so it is compatible with GitHub Pages.**
+!!! берите hdd со стандартным размеров кластера, не берите с технологией Advanced Format Technology, там размер кластера нестандартный и это грозит кучей проблем в дальнейшем. Модели от WD где есть буква Pв названии лучше не брать: WD BPVT, WD BPKT ...
 
-Add this line to your Jekyll site's `Gemfile`:
+3.5 HDD уже будут требовать вмешательства паяльника, так как требуют 12V.
 
-```ruby
-gem "bulma-clean-theme"
-```
+2. Так же, с появлением плагина ConnectX в новом релизе FSD 2.2 - стало возможным играть с hdd компа, расшарив на нем папку с играми для бокса.
 
-And add this line to your Jekyll site's `_config.yml`:
+3. Сделать полными все версии live-аркадных игр XBLA.
 
-```yaml
-theme: bulma-clean-theme
-```
+4. Запускать самописный софт (эмуляторы старых консолей, хоумбрю и т.д.)
 
-And then execute:
+5. Можно запустить весь скачиваемый контент (DLC) для игр БЕСПЛАТНО, который на обычных xbox 360, с прошитым приводом или нет, нужно покупать за деньги или мудрить с профилями...
 
-    $ bundle
+6. Запускать игры ЛЮБОГО РЕГИОНА ( Ntsc, Ntsc-J, Pal)
 
-Or install it yourself as:
+7. Не тратиться на диски с играми вообще, привод нам становиться не нужен.
 
-    $ gem install bulma-clean-theme
+8. Забыть о прошивках, всякого рода защитах типа ap2.5 и XGD3, пропатчивании образов под ту или иную прошивку и т.д.
 
-## Usage
+info: Но несмотря на все это, чтобы играть\копировать пиратки с CD - привод все же должен быть прошит!
+Установленный на консоль фрибут не позволит вам использовать самописные диски если в приводе установлена оригинальная прошивка .
 
-### Pages 
+9. Если вы являетесь обладателем фрибута с прошитым приводом , то в пару кликов джойстика во FreeStyleDash вы можете скопировать любой самописный диск с игрой , взятый у друзей/знакомых на свою приставку и потом без проблем играть в эту игру .
 
-Create your pages as individual markdown files and use the `layout: page` for normal pages. Set the pages title and subtitle in the front matter and it will appear in the hero.
+info:обновлять FreestyleDash (FSD) можно прямо с консоли .
 
-#### Page Hero
 
-**New in 0.2** 
-Heros can now display a background image if you provide a `hero_image: /path/to/image.jpg` setting in your page front matter, or in the [defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/) in your sites `_config.yml`
 
-You can also set the height of the hero by providing a bulma hero height class in your front matter, such as `hero_height: is-fullwidth`. If you do not provide this, it will revert to is-medium 
 
-**New in 0.5.4**
-If you would like to add a call to action button in the hero then add `hero_link` and `hero_link_text` to the page's front matter.
+На каких консолях возможен данных хак?
 
-**New in 0.5.7**
-If you would like to hide the hero, you can set `hide_hero: true` in the page's front matter.
 
-**New in 0.7.1**
-If you would like to darken the hero so the title stands out more, you can set `hero_darken: true` in the page's front matter. You can overwrite the default background colour by setting the `$hero-darken` sass variable.
 
-#### Table Of Contents
 
-**New in 0.5.8**
-If you want to display a table of contents (toc) then add `toc: true` to your page's front matter. You can customise the default table of contents title by setting `toc_title: My Custom Title` in the page's front matter. 
+  тыц
 
-### Posts
+На многих ... как Fat так и SLIM, но с некоторыми оговорками:
 
-If you want posts, create a `_posts` directory to store your posts as per normal Jekyll usage, with the `layout: post`. Next create a `blog` directory with an index.html file that has `layout: blog`
+1. JTAG хак (он же "старый" фрибут , он же фрибут "на диодах" ) возможен только на консолях с установленным дэшбордом до 8ххх (8ххх это первый из дэшбордов с поддержкой аватаров) , на более поздних уязвимость была закрыта , соответственно если на вашей консоли установлен любой дэшборд с аватарами , этот метод хака вам недоступен . Так же этот метод хака недоступен владельцам консолей SLIM , они изначально выпускались с дэшбордом версий 12ххх и выше . Для таких консолей доступен только более новый метод :
 
-Set the paginate and the paginate_path up in the `_config.yaml` to configure the posts per page and the blog pagination path.
+2. Glitch хак (он же GHR/RGH/глитч/фрибут с чипом) уже доступен на любых консолях
+с установленным дэшбордом вплоть до 2.0.14719 ( у кого выше .. ждем... )
 
-```yaml
-paginate: 5
-paginate_path: "/blog/page:num"
-```
+Ксенон- модель без HDMI-стабильный фрибут возможен на JTAG; фрибут на RGH не стабильный и зачастую не запускается. ( возможно к концу 2012 все стало лучше)
+Зефир- модель с HDMI 2007.г стабильный фрибут возможен на JTAG; фрибут на RGH стабильный, но раз на раз не приходится. ( возможно к концу 2012 все стало лучше)
+Фалкон- модель с HDMI 2007-2008.г стабильный фрибут возможен на JTAG/RGH.
+JASPER- модель с HDMI 2008-2009г. стабильный фрибут возможен на JTAG/RGH.
+SLIMстабильный фрибут возможен на RGH, даже на corona 4gb!
 
-**New in 0.2** It will now display an image in the blog page if you set `image: /path/to/image.jpg` in your post's or page's front matter, or in the [defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/) in your sites `_config.yml`
 
-You can also set the height of the hero by providing a Bulma hero height class in your front matter, such as `hero_height: is-fullwidth`. If you do not provide this, it will revert to is-medium
 
+***
+Как узнать установлен ли у меня Фрибут\Jtag\RGH?
+***
 
-### Navigation
 
-For the top navigation, create a navigation.yml file in `_data` directory with the following format with the pages you want to include in the top navigation. You can now also add items to a dropdown menu.
 
-```yaml
-- name: Page 1
-  link: /page-1/
-- name: Blog
-  link: /blog/
-  dropdown: 
-    - name: Page 2
-      link: /page-2/
-```
-
-For the current page to have an active class, ensure the `link:` format matches your [permalink](https://jekyllrb.com/docs/permalinks/#extensionless-permalinks) format. The above example will work with `permalink: pretty` setting in your `_config.yml`
+  тыц
 
-### Colours and Styles
+Чтобы узнать установлен ли у вас фрибут - включите консоль не кнопкой включения, а кнопкой извлечения лотка привода
+Загрузиться Xell и вся инфа о консоли CPU ключ и DVD ключ - если это произошло - у вас фрибут консоль. Если нет .. то нет. ( если консоль включается, но экран черный и ничего не происходит возможно требуется подключить не через hdmi )
 
-To overwrite the primary theme colour, set a sass variable in `assets/css/app.scss` before importing `main`
 
-```
----
----
-$primary: #333333;
-// Import Main CSS file from theme
-@import "main";
-```
-
-You can overwrite any of the [Bulma initial variables](http://versions.bulma.io/0.7.0/documentation/overview/variables/) in this way as long as they are declared before the `@import "main"'`
-
-### Sidebar Visibility
-
-**New in 0.2**
-
-If you want to show the sidebar with latest posts then set `show_sidebar: true` in the pages frontmatter, or in the [defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/) in your sites `_config.yml`
-
-### Menubar
-
-**New in 0.3**
-
-The menubar gets its content from a data file in your site's `_data` directory. Simply set the name of your data file in the page's menubar setting in the frontmatter. 
-
-```yaml
-show_sidebar: false
-menubar: example_menu
-```
-
-You will probably want to disable the show_sidebar otherwise there will be little room for the page content. 
-
-#### Creating a menubar data file
 
-Create a data file in the _data directory and use the following format (if using yml)
 
-```yaml
-- label: Example Menu
-  items:
-    - name: Home
-      link: /
-    - name: Pages
-      link: #
-      items:
-        - name: Page With Sidebar 
-          link: /page-1/
-        - name: Page Without Sidebar
-          link: /page-2/
-        - name: Page With Menubar
-          link: /page-3/
-    - name: Blog
-      link: /blog/
-```
 
-For the current page to have an active class, ensure the `link:` format matches your [permalink](https://jekyllrb.com/docs/permalinks/#extensionless-permalinks) format. The above example will work with `permalink: pretty` setting in your `_config.yml`
+У меня установлен Фрибут\Jtag\RGH, что дальше ?
 
-#### Multiple menus
 
-You may make multiple menus in the same file, separated by the label
 
-```yaml
-- label: Menu Label
-  items:
-    - name: Example item
-      link: /example-item/
-- label: Second Menu Label
-  items:
-    - name: Parent Item
-      link: /parent-item/
-      items:
-        - name: Sublink 
-          link: /sublink/
-        - name: Sublink 2
-          link: /sublink2/
-- label: Third Menu Label
-  items:
-    - name: Another example item
-      link: /another-example-item/
-```
 
-### Tabs
+  тыц
 
-**New in 0.4**
+Для начала нужно изучить некий софт и для чего он нужен, а так же определиться с какого носителя играть, предлагаю сразу настроить консоль по уму, это немного сложнее, но зато один раз настроил и забыл...
+Следует для начала ВНИМАТЕЛЬНО все прочитать, чтобы пазл собрался воедино и только потом приступать к действиям!Ничего искать отдельно не придется .. все уже есть на диске:
 
-The tabs gets its content from a data file in your site's `_data` directory. Simply set the name of your data file in the page's menubar setting in the front matter. 
+NEW!!!LiveCD v2
+содержание диска:
 
-```yaml
-title: Page with tabs
-subtitle: Demo page with tabs
-layout: page
-show_sidebar: false
-menubar: example_menu
-tabs: example_tabs
-```
+  тыц
 
-Tabs can be used in conjunction with menubar and/or sidebar if you wish. 
+PC:
+fat32 Format tool
+USBXTAFGUI_v44
+Iso2god1.3.6.
+Xbox Image Browser
+Exiso Gui
+XBOX:
+DL 3.03
+FSD3rev58 (xex\nxe) + rus skin
+xexmenu_v1.1 (xex\nxe)
+UpdateFreeboot:
+J-Runner v02 Beta (283) Core Pack
+NAND Flasher 360 for XBOX 360 v1.2.0
+Simple 360 NAND Flasher 1.2 (corona)
+SystemUpdate_16197_USB
+DL 3.03
 
-#### Creating a tabs data file
+Записываете образ на болванку, вставляете диск в консоль, выключаете, затем включаете и при старте попадаете сразу в оболочку Xexmenu
 
-Create a data file in the _data directory and use the following format (if using yml)
+Кнопки управления:
 
-```yaml
-alignment: is-left
-style: is-boxed
-size: is-large
-items:
-  - name: Tabs
-    link: /page-4/
-    icon: fa-smile-wink
-  - name: Sidebar
-    link: /page-1/
-    icon: fa-square
-  - name: No Sidebar
-    link: /page-2/
-    icon: fa-ellipsis-v
-  - name: Menubar
-    link: /page-3/
-    icon: fa-bars
-```
+-RB -смена вкладок
+-X-выбор источника dvd\usb\hdd
+-Y-вывод меню операций над файлами copy\paste\cut и т.д. )
+ 
 
-#### Settings
+Нужные нам на данный момент программы:
 
-You can control the alignment, style and size of the tabs by using the relevant [Bulma tabs classes](https://bulma.io/documentation/components/tabs/). 
+Xexmenu-простая оболочка для запуска игр\приложений c расширением *.XEX с любых носителей, имеет встроенный файловый менеджер и т.д.
 
-#### Active Tab Highlighting
+FreeStyle Dash-Это и есть заточенный под фрибут кастомный дэшборд с кучей возможностей.
 
-It will automatically mark the active tab based on the current page.
+Dashlaunch-автозапуск FreeStyale Dash, патчит файлы в нанд памяти, настраивается под нужды пользователя при помощи launch.ini файла, в новых версиях 3,хх все максимально упрощено и появился графический интерфейс. Так же появилась возможность узнать инфу о консоли CPUkey, DVDkey, тип материнской платы (falcon, jasper, trinity, corona и тд ) Позволяет выставлять t параметры на лету, без перепрошивки nand
 
-#### Icons
+Iso2God-программа для конвертации обычных ISO образов в GOD контент, которые без проблем определяются в FreeStyleDash и NXE . (Внимание : для запуска игр из FreeStyleDash необходимо прописать правильный путь к каталогу с ними , для запуска игр из NXE необходимо поместить их в соответствующий каталог)
+Образы могут быть любые, не важно под какую прошивку они сделаны.
 
-You can add icons to your tab by passing in the [Font Awesome icon class](https://fontawesome.com/icons?d=gallery).
+FAT32 format- утилита для форматирования USB HDD в файловую систему FAT32.
 
-If you don't wish to show icons then simply omit the option from your yaml file.
+У меня нет привода:
 
+  тыц
 
-### Google Analytics 
+Вставляем чистую флешку в консоль, форматируем ее средствами бокса в настройках...
+Вынимаем флешку, вставляем в комп и при помощи проги Xbox 360 USB Storage Explorer (Xplorer) открываем флешку, нас интересует раздел с папками Content, берем папку code9999 c LiveCD( Apps to Put on Xbox HDD\Xexmenu for NXE\ ) и кидаем ее в папку Content\16 нолей\ ( если папки контент не окажется, то тупо перетащите с LiveCD всю папку контент с LiveCD
+Вставляем флешку в бокс, загружаемся в NXE в разделе игротека\демо версии появится иконка Xexmenu.
+Можно для удобства перетащить папку code9999 на HDD консоли, по тому же пути.info: У кого отсутствует DVD-привод , можно поставить перемычку на материнской плате(см.фото), тогда не будет мигать центральный зелёный светодиод и кнопка открытия лотка привода будет выполнять функцию загрузки xell-экрана.
+Для безопасности, вместо перемычки поставить резистор на 100-200 Ом более чем достаточно.
+ps
+На FAT консолях можно снять переднюю крышку и залепить центральную лампочку жвачкой или еще чем =)
 
-**New in 0.2**
 
-To enable Google Analytics add `google_analytics: UA-xxxxxxxx` to your `_config.yml` replacing the UA-xxxxxxxx with your Google Analytics property
 
-### Footer
 
-**New in 0.4.1**
+Что представляет из себя FSD ?
 
-To add some footer links, create a yaml file in the `_data` directory using the following format
 
-```yaml
-- name: Blog
-  link: /blog/
-- name: About
-  link: /about/
-- name: Privacy Policy
-  link: /privacy-policy/
-```
 
-Then add the name of your yaml file (without the .yml extension) into the footer_menu setting in the `_config.yml`
 
-```yaml
-footer_menu: example_footer_menu
-```
+  тыц
 
-#### Hiding the footer
+Это заточенный под Фрибут\Jtag\RGH кастомный дэшборд с кучей возможностей:
 
-**New in 0.5.2**
+1. Возможность мониторинга температуры GPU\CPU\Mem\системной платы. (жмем правый стик)
 
-If you would like to hide the footer on a particular page then set `hide_footer: true` in the page's frontmatter.
+2. Возможность управлять скоростью вращения вентиляторов.
 
-### Products
+3. Имеет встроенный файловый менеджер.
 
-**New in 0.5**
+4. Поддержка плагинов, в том числе для многодисковых игр, встроенные ftp и http серверы и т.д.
 
-Now you can add simple product pages to your site using collections. 
+5. Поддержка ConnecX (игра из расшаренной папки hdd компьютера по LAN или Wi-Fi)
 
-#### Product pages
+6. Можно скачивать последние обновления для игр и обложки (кнопка Y по игре в списке)
 
-Start by creating a `_products` directory to hold your product pages and create a new page for each product, such as `product1.md`. In the front matter for this page you can set the standard settings, such as your title, subtitle, description (for meta-description), hero_image, as well as the additional product settings such as price, product_code, image, features and rating. 
+7. Широкие возможности в плане настроек внешнего вида и поддержка скинов (меню Skin, кнопка X)
 
-```yaml
-title: Product 1 Name
-subtitle: Product 1 tagline here
-description: This is a product description
-hero_image: /img/hero-img.jpg
-product_code: ABC124
-layout: product
-image: https://via.placeholder.com/640x480
-price: £1.99 + VAT
-features:
-    - label: Great addition to any home
-      icon: fa-location-arrow
-    - label: Comes in a range of styles
-      icon: fa-grin-stars
-    - label: Available in multiple sizes
-      icon: fa-fighter-jet
-rating: 3
-```
+8-Поддержка Homebrew, эмуляторов, игр от XBOX1
 
-The text you write for the page content will be displayed as the product description. 
+info:FSD имеет встроенный веб интерфейс, вбейте в браузер ip-адрес вашего xbox и можете увидить много интересного (пароль и логин: fsdhttp)
+Так же имется поддержка FTP (логин и пароль: xbox )
 
-Next, add the following to your `_config.yml` to use collections to process the product pages and output them as individual pages. 
 
-```yaml
-collections:
-  products: 
-    output: true
-    layout: product
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
-```
 
-You can also set default product page values here if you like, such as the layout or image. 
 
-#### Product Reviews
+Установка Freestyle Dash (FSD) и Dashlaunch
 
-To add reviews to your product page, create a `reviews` directory in the `_data` directory and add a yml file with the name of the product_code from the product page, for example `_data/reviews/ABC124.yml`. Create the reviews using the following format:
 
-```yaml
-- name: Mr E Xample
-  rating: 4
-  title: Great product, highly recommended
-  date: 01/01/2019
-  avatar: https://bulma.io/images/placeholders/128x128.png
-  description: >
-    The product worked really well. I would recommend this to most people to use. Delivery was quick and reasonable. 
-    Would recommend this to my friends. 
-- name: Mrs R E View
-  rating: 5
-  title: Nice, really liked this
-  date: 02/02/2019
-  description: >
-    The product worked exactly as described. 
-```
 
-If you don't want to display an avatar image then a default user icon will be displayed. If you don't want to display a rating then omit it from the yml.
 
-#### Product Category Page
+  тыц
 
-To create a page listing your products you will need to create a product category page. Create a page, for example `products.md`, with the `layout: product-category` in the frontmatter. You can set the sort order of the products using `sort: title` to sort by the title, or by any setting in your product pages, such as price, rating or any custom frontmatter tags you wish to set. 
+Установка Dashlaunch:
+Последние версии могут как встраиваться в сборку, так и устанавливаться отдельно. Как встроить в сборку смотрите в соответствующем разделе чуть ниже.
+Как же установить\обновить DL на своей консоли? Достаточно скачать инсталятор, кинуть его на флешку и запустить файл default.xex из папки через хеxmenu или через проводник FSD ( если уже fsd установлен )
+скачать DL 3.03
+далее следовать инструкциям на экране, выбирая нужные параметры ВИДЕО установки.
+Не забудьте прописать путь до вашей папки с FSD для автозапуска FSD.
+пример: hdd:\FreeStyle\default.xex ( для внутреннего hdd ); usb:\FreeStyle\default.xex ( для usb носителя )Так же лучше использовать англ версию DL, ибо русская оставляет желать лучшего...
+переключите язык в дэшборде на англ и DL тоже станет англ.
 
-```yaml
-title: Products
-subtitle: Check out our range of products
-layout: product-category
-show_sidebar: false
-sort: title
-```
+Готовые launch.ini: на всякий случай ( не для новичков )
+Для HDD
+Для USB
+Для внутренней памяти слим
 
-### Scripts
+Установка FSD3:
+Копируете папку freestyle с LiveCD v2 или качаем отсюда, кидаем в корень вашего носителя (usb или hdd)
+Если хотите просто ознакомиться с FSD , то достаточно просто запустить default.xex из папки
+Для автозапуска прописываете путь до папки в FSD как описано ранее
+Русский скин уже есть в папке, выбирайте в меню Skins
 
-**New in 0.5.2**
+info: можно поставить и во внутреннюю память, но слишком много вопросов и косяков это может вызвать у новичков, разницы нет куда ставить.
 
-There are two new files within the includes directory called `head-scripts.html` and `footer-scripts.html`. These are empty files by default but allow you to add any additional JavaScript to your site, such as the script for AddThis share buttons, in the `<head>` or after the `<footer>` of the page.
 
-### Callouts
 
-**New in 0.5.4**
 
-You can now add callouts to a page to make a landing page style layout. 
+Как мне попасть в родной NXE дэшборд, а из NXE опять в FSD ?
 
-#### Create a callout data file
 
-Create a data file following the below format. The style is for classes to set the background colour and sizes you would like to use of the Bulma hero container for the callouts. 
 
-**New in 0.5.7** You can set the height of the callouts in the data file, such as is-small, is-medium or is-large. If unset it will be is-medium by default.
 
-The items have 5 fields, but only the title and subtitle are required. 
+  тыц
 
-```yaml
-style: is-light
-height: is-medium
-items:
-  - title: Example callout 1
-    subtitle: Example subtitle 1
-    icon: fa-space-shuttle
-    description: >
-      The example description text goes here and can be multiple lines.
+Все просто, есть несколько способов:
 
-      For example, such as this. 
-    call_to_action_name: Call to action 1
-    call_to_action_link: /page-1/
-```
+info: для работы центральной кнопки в launch.ini должен быть параметр nohud = false
 
-#### Set the callouts in the frontmatter
+1. При запуске консоли, в момент появления первого логотипа (шар Xbox) зажать RB и держать, должен загрузиться NXE
 
-To display the callouts on your page, add a callouts property in the frontmatter and set it to the name of your data file without the extension.
+2-В любой игре или в самом FSD нажать центральную клавишу джоя, далее нажать Y, затем зажать RB и выбрать ДА (A)
 
-```yaml
-layout: page
-title: Example Landing Page
-subtitle: This is an example landing page
-callouts: example_callouts
-```
+3-Чтобы выйти из NXE в FSD, нажмите центральную клавишу затем нажмите Y (или выберите пункт панель xbox)
 
-### Favicon
 
-The default favicon path is `{{ site.baseurl }}/favicon.png` but you can overwrite it in the sites `_config.yml` like this `favicon: /path/to/favicon.png`
 
-### Showcases
 
-Showcases allow you to display your work to others using a simple layout. 
+Как и куда заливать игры?
 
-#### Creating A Showcase Datafile
 
-Create a datafile in your sites `_data` directory in the following format. Subtitle, features and tags are not required. 
 
-The description text accepts markdown and is run through the markdownify filter on the page.
 
-The image_ratio will default to is-16by9 if it is not defined and accepts the [Bulma image](https://bulma.io/documentation/elements/image/) classes.
+  тыц
 
-To display GitHub Stars, Forks and Watchers badges add your GitHub user and repo name to the github setting, such as `chrisrhymes/bulma-clean-theme`
+upd:сейчас игры в god формате можно скачать торрентов и не заморачиваться с конвертацией.
 
-To change the default styles of the features, set `features_styles`. This uses the styles from [bulma-block-list](https://www.csrhymes.com/bulma-block-list/) npm package.
+Все же я рекомендую пользоваться прогой ISO2GOD , она преобразовывает iso образ в GOD контент ( папка с уникальным номером)
 
-```yaml
-intro: |-
-  This is some introduction text for the showcases.
-  
-  ## Example Heading
-  It can convert markdown format
+info:к примеру, iso2god может часами распаковывать образ на usb флешку или usb hdd.А на диск компа\ноута распаковывает за минуты ( 3-10 ) зависит от мощности компа и скорости дисковой подсистемы.Так что распаковывайте не на флешки и usb hdd (на них тока копируйте готовые варианты)Тоже самое относиться к xbox image browser.
 
-items:
-  - title: Example showcase item
-    subtitle: Example subtitle
-    description: |-
-      This is the example description for this item that you are showcasing and has an image, title, description, tags and a link.
-    features:
-      - This is a feature
-      - This is a feature
-    features_styles: is-centered is-outlined is-primary
-    image: https://via.placeholder.com/1024x788
-    image_ratio: is-16by9
-    link: http://www.example.com
-    link_text: View example
-    tags: PHP,CSS,JavaScript
-    github: user/repo-name
-```
+Образы могут быть любые, не важно под какую прошивку они сделаны.
+Есть возможность неплохо обрезать образ от лишнего мусора. Кроме того, игры можно будет запускать даже из родного NXE дэша, если кидать их в папку hdd\content\0000000000000000\папка с номером игры.
+Они будут отображаться в меню Игротека. Чтобы отображалось еще в FSD надо прописать в его настройке тот путь.
+-Устанавливаем прогу ISO2GOD на компьютер с LiveCD из папки Apps for PC\Iso2god\
+-Жмем Add ISO.
 
-#### Displaying the Showcase
+-В Image Location указываем путь к iso-образу.
+-В Output Location - путь для сохранения преобразованного xbreboot результата.
 
-Set the showcase in the page's front matter to be the name of the showcase data file without the extension. This gives you the ability to create multiple showcases to be used on different pages. 
+В нижнем выпадающем списке 3 пункта:
+- None - выбрать если нам не нужно уменьшать размер образа
+- Partial - образ обрезается полсе окончания последнего используемого сектора. Экономит 800-1500 Мб места на жестком диске
+- Full - полная перестройка образа с удалением всех пустых секторов на нем. Можно оставить измененный образ для дальнейшего использования. Получаем лучший по размеру результат. Допольнительно занимает 5-10 минут.
+- выбираем нужные нам настройки и жмем Add Iso
+- теперь convert
 
-```yaml
-title: Showcase
-subtitle: An example showcase page
-layout: page
-showcase: showcase_example
-show_sidebar: false
-```
+Для примера образ игры Saboteur уменьшился с 7,29 Гб до 5,64 Гб, при выбранном Full режиме перестройки образа.
+- теперь, полученный результат в Output Location, у меня это папка 4541088F - название уникально для каждой игры, копируем на USB диск в папку Games\Saboteur\
+Игра появляется в списке игр ( но следует правильно настроить ползунок в настройках фристайл дэше при прописывании пути к играм, поставить его на 3 вместо 2, ну чтобы он сканировал папки глубже и для своего же удобства, чтобы видеть в винде названия игр, а не тупо папки с цифрами и не гадать, что удалить в случае чего)
 
-### Sponsors
+Принадлежность папки к определенному контенту на Xbo360:
 
-#### Sponsor link in navbar
+  тыц
 
-If you have a GitHub sponsors account set up, you can add your username to `gh_sponsor` in the `_config.yml` file and it will display a link to your profile on the right of the navbar.
+00020000 - Gamerpics00030000 - Themes
 
-```yaml
-gh_sponsor: chrisrhymes
-```
+00007000 - GOD-контейнер
 
-#### Creating a Sponsors Datafile
+00080000 - Demos
 
-If you would like to create a page to thank your sponsors then create a data file, such as my_sponsors.yml file with the following structure:
+00090000 - Videos
 
-```yaml
-- tier_name: Platinum Sponsors
-  size: large
-  description: |-
-    This is the description for the Platinum Tier
-  sponsors:
-    - name: Dave McDave
-      profile: https://github.com/
-    - name: Sarah Lee-Cheesecake
-      profile: https://github.com/
-- tier_name: Gold Sponsors
-  description: |-
-    This is the description for the Gold Tier
-  sponsors:
-    - name: Dave McDave
-      profile: https://github.com/
-```
+00004000 - Game Installs
 
-The `tier_name` and `description` are required. The `size` is not required, but can be overwritten to 'large' or 'small' to increase or decrease the size of the box and the text size.
- 
-The sponsors require a name, but not a profile link.
+00000002 - Extra Content
 
-#### Displaying the Sponsors
 
-To display the sponsors on your page, set the sponsors to the filename without the extension in the page's front matter
 
-```yaml
-layout: page
-title: My Sponsors Page
-sponsors: my_sponsors
-```
 
-### Disqus
+Как быть если игра на нескольких дисках ?
 
-Disqus comments are available for posts. To be able to use them, you need to set your disqus shortname in `_config.yml`. Then you need to set your Jekyll environment to production: 
 
-```JEKYLL_ENV=production bundle exec jekyll build```. 
 
-Comments are enabled by default. If you want to disable them, set in the front matter this setting: 
 
-```markdown
-comments: false
-```
+  тыц
 
+upd:DL3.xx уже умеет переключать диски сам, как в nxe, так и в fsd, нужно отметить параметр autoswap
 
+Способ только для FSD:
 
-## Contributing
+  тыц
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/chrisrhymes/bulma-clean-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Распаковываете образ игры как обычно прогой iso2god, не меняя названия дисков, все по умолчанию.
+Далее кидаете эти папки и файлы с 2х или более дисков в одну папку:
+На примере Макс Пейн 3:
+USB\Games\Max Payne 3\5454086B\00007000\3054723F8A3477D01A12 + 9C105251594712248CCA + парочка папок с одноименными названиям.Далее сканируете их в FSD, в списке игр появятся Max Payne 3 CD1 и Max Payne 3 СD2
+Далее нам потребуется выбрать в списке диск 2 и нажав на нем Y, выбрать MOVE GAME, далее выбрать NO SECTION. Это все..... таким образом мы переместили второй диск и заодно убрали ненужную иконку из списка. Теперь FSD сам будет переключать диски.
 
-## Development
+Резюмирую.... FSD с каждым диском кроме первого нужно сделать следующее: при выборе диска под номерами 2,3,4 и т.д. нажимаем Y, далее в опции выбрать строку MOVE GAME, далее выбрать NO SECTION. .
 
-To set up your environment to develop this theme, run `bundle install`.
+Не надо делать это на диске 1 ( с него как раз таки и будем запускать )
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+UPD:от Jekyll : есть небольшая оговорка, этот способ работает если в папке FSD/Plugins есть плагин FreeStyleDashPlugin . В версиях до релиз кандидатов, плагин надо было скачивать отдельно. Сейчас им комплектуют все сборки FSD, так что надо обновлять FSD у кого старый.
 
-## License
+Способ для NXE и FSD:
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+  тыц
 
+нужно дополнительно установить плагин Swap и сконфигурировать его работу ( более подробно в разделе: Какие плагины поддерживает Freeboot и для чего они ? )
+
+Установка игр с дополнительным контентом (Forza 3,4 , Fallout 3 и подобных):
+
+  тыц
+
+- Распаковываем и устанавливаем первый диск как угодно, через iso2god или через XboxImageBrowser
+- Второй и последующие диски распаковываем обязательно в Xbox Image Browser
+- На втором распакованном диске будет папка /content/0000000000000000/
+- точно такая же папка есть и на hdd консоли, потому все содержимое папки content, с распакованного образа второго и последующих дисков, просто переносим в аналогичуню папку на hdd.
+- для тех кто все еще не понял , папка content со всем содержимым копируется в кореневой каталог xbox-hdd. Либо все что находится внутри /content/0000000000000000/ в распакованном образе, переносится в /content/0000000000000000/ на жёсткий диск freeboot xbox 360.
+
+
+
+
+Как настроить FSD, чтобы он видел игры, обложки?
+
+
+
+
+  тыц
+
+Кидаете сконвертированые в GOD игры на ваш носитель в папку Games.
+Подключаете лан кабель к консоли или по Wi-Fi ( не бойтесь, в лайв не выйдет, launch.ini правильный )
+-1 Добавьте пути к игровым папкам в меню настроек ( settings menu )
+-2 далее в Manage Game Paths
+-3 Жмём Add (Y)
+-4 Выбираем Change Path
+-5 Указываем директории, где у нас хранятся игры,xbla,эмуляторы и т.д.
+- К примеру:USB:/games - xbox360 игры.
+USB:/xbox1 - игры от первого xbox.
+USB:/emulators - различные эмуляторы.
+USB:/Arcade - live-аркады
+
+-6.Нажимаем Select Directory (Y)
+-7.Нажимаем Save (X)
+-8.Жмем Back (В) и выходим.
+-9 Советую поставить ползунок на цифру 3 ( увеличит глубину сканирования игровых папок )
+-10 FSD сам все сделает и скачает обложки, в этот момент лучше никуда не лазить. ( жмем правый стик, смотрим вниз на процесс )
+-Все, теперь заходя в раздел Xbox360 Games, вы увидите игры в списке с обложками.
+-Если захотите скачать обложки для игры только что добавленной, выбираем ее в списке, жмем Y, download cover.
+
+
+Можно и вручную закачать:
+Обложки, банеры, скриншоты и.т.д можно закинуть по HTTP.
+Вбейте в браузере IP бокса (лучше в Internet Explorer, он коректно работает)
+Зайдите во вкладку с играми, выберете нужную игру и вставляйте, что вам нужно.
+Не забываем сохранять кнопка внизу 
+
+
+
+
+Как установить Аркады ?
+
+
+
+
+  тыц
+
+Качайте уже разлоченные с торрентов, есть огромная подборка тут
+Создаете на вашем носителе папку Аrcade, прописываете путь до нее в FSD
+Если хотите чтобы игры виделись так же в NXE - поместите их на диск консоли в hdd\content\0000000000000000\папка с номером игры. После чего они будут в разделе игротека.
+( в FSD пропишите тот же путь )
+Так же родной дэшборд должен быть полным, то есть с аватарми, тогда все будет без проблем.
+Все, теперь, в меню Arcade будет список игр, обложки и скрины к ним он так же сам скачает при наличии инета.
+
+
+
+
+Как установить инди-игры ?
+
+
+
+
+  тыц
+
+Запуск инди-игр на JTAG/RGH
+Совсем недавно заграничные умельцы научились запускать игры канала Xbox Live Indie Games (XBLIG), предназначенного для распространения продуктов независимых разработчиков. Попрошу не путать их с аркадами (XBLA).Ряд требований:
+1. Данный способ действителен только для консоли JTAG/RGH;
+2. Необходим установленный дашланч. На момент публикации доступна бета версия Dash Launch 3.00 - с нововведениями на английском языке можно ознакомиться здесь;
+3. Во время игры LAN-кабель и беспроводную сеть необходимо отключить;
+4. Место для игр - в папке 584E07D2/00000002 плюс потребуется TU, который нужно положить в папку 584E07D2/000B0000.
+
+Инструкция:
+1. Необходимо изменить несколько опций конфигурационного файла launch.ini: contpatch, fakelive и signnotice нужно установить в положение true;
+
+
+Интерфейс обновленного дашланча.
+
+2. Запустите игру из оригинального дэшборда (NXE).
+
+
+Полезный совет
+В ряде случаев RGH-консоль стартует на порядок быстрее, если зажать на геймпаде центральную кнопку во время включения.
+ps
+большая коллекция инди игр
+
+
+
+
+Как установить DLC ?
+
+
+
+
+  тыц
+
+Опять же качайте разлоченные, что без лишнего гемора.
+Скачали DLC, к примеру, для Бетмена, так вот, эту папку нужно кинуть в папку hdd\Content\16 нолей\
+Обычно DLC имеет вид - "папка с номером игры"\00002\
+Саму игру можно хранить на USB HDD/Flash , но DLC к ней обязательно должны быть в разделе отформатированном боксом как Flash Memory Unit (максимальный размер 16Gb) .
+Не все игры или DLC могут работать с USB Flash/HDD , например HD Texture Pack для Battlefield 3 необходимо устанавливать исключительно на внутренний HDD консоли .
+
+
+
+
+Как установить ТU (патчи) ?
+
+
+
+
+  тыц
+
+Выбрать игру в списке FSD, нажать Y, выбираем пункт manage TU (Title Updates)
+Далее жмете снова Y, FSD сам все скачает. Затем жмете A - set active ( сделает его активным )
+Если инета нету, то ручками скачиваете ТU.
+TU есть двух типов:TU_(много цифр) - эти в hdd\Cashe
+tu(много цифр) - эти в content\0000000000000000\игры\00B0000\папка с номером игры.
+
+При скачивании tu нужно использовать последний, не обязательно включать все, так как последний уже содержит предыдущие) например tu3 уже содержит tu1 tu2.
+
+
+
+
+Как настроить FTP соединение между Xbox и PC?
+
+
+
+
+  тыц
+
+info:сюда же кину инструкцию по настройке samba server в FSD.
+
+  тыц
+
+настройка самбыНастройка "FSD Samba Server" ( спасибо пользователю BECK за перевод )
+
+Заходим в FSD, "Settings" - "General Settings" - "Activate Samba Server"
+
+"Enable Samba Server"
+Workgroup: WORKGROUP (default)
+Host Name: XBOX360 (default)
+
+Рабочая группа компьютера тоже должна быть по умолчанию "WORKGROUP", можно посмотреть в свойствах компьютера и там же изменить по необходимости.
+
+Заходим: "Пуск" - "Панель управления" - "Администрирование" - "Локальная политика безопасности",
+выбираем слева "Локальные политики" - "Параметры безопасности".
+
+Ищем: "Сетевая безопасность: уровень проверки подлинности LAN Manager", открываем и выбираем "Отправлять LM- и NTML -ответы" нажимаем применить и ок.
+
+Далее ищем:
+"Сетевая безопасность: минимальная сеансовая безопасность для клиентов на базе NTLM SSP (включая безопасный RPC)"
+и следом идет
+"Сетевая безопасность: минимальная сеансовая безопасность для серверов на базе NTLM SSP (включая безопасный RPC)"
+
+Открываем их и ставим галочки "Требовать сеансовую безопасность NTLMv2", галочка "Требовать 128-битное шифрование" также должна стоять по умолчанию!
+
+заходим в "Мой компьютер" - "Правой кнопкой мыши" - "Добавить новый элемент в сетевое окружение", нажимаем далее, обзор, должна найтись сеть "XBOX360" добавляем "HDD1", обзываем как хотим, готово!
+
+info:"Добавить сетевой диск", в поле указать \\XBOX360\Hdd1
+с ХР есть проблема именно в этом
+
+Вернемся к FTP...
+Через роутер:
+Так же игры можно заливать игры по Lan кабелю непосредственно на диск консоли, используя программу Total Cammander
+C wi-fi следует сначала настроить соединения в настройках обычного дэша.
+Скорость заливки по Wi-Fi еще более низкая чем по LAN кабелю.
+Комп мой подключен к сети через роутер, на роутере все по умолчанию.
+Вставляем в свободный порт роутера lan кабель, другой конец в бокс
+Устанавливаем Total Commander на комп. ( LiveCD\Other Apps\Total Commander\ )
+Запускаем его, запускаем бокс, жмем правый стик, видим в нижнем левом углу ip адрес
+Жмем Сtrl+N в тотал командере, вбиваем ip бокса, снимаем галочку с анонимного соединения,жмем ОК
+Вводим пароль и имя xbox ( пароли можно отрубить в настойках FSD для удобства)
+Все... ваш раздел называется hdd1, там-то и видим до боли знакомые папки: cashe,content.
+Помимо Total Commander, можно использовать Iso2god, 360 Content Manager и другими прогами.
+ 
+ 
+
+Если нет роутера:
+Купите роутер  Ладно... шучу...
+- соединяем сетевые порты компьютера и xbox 360 кабелем патч-корд. Если в комплекте такого не было , он продается в любом компьютерном магазине.
+
+включаем xbox 360
+- идем в параметры системы
+- параметры сети
+- настроить сеть
+- вкладка основные настройки
+- выбираем ручной режим параметров ip-адреса
+- ip-адрес прописываем 192.168.0.2
+- маска подсети 255.255.255.0
+- шлюз нам не нужен прописываем 0.0.0.0
+- сохраняем настройки,нажимая готово
+- запускаем freestyle dash, xexmenu или любой jtag-софт со встроенным ftp-сервером.
+- на ПК заходим с Сетевые подключения
+- Свойства подключения по локальной сети
+
+- заходим в свойства "Протокол интернета TCP/IP"
+
+- прописываем IP адрес и маску сети
+
+- нажимаем OK
+- перезагружаем ПК
+- запускаем Total Commander( можно любой другой FTP-клиент, но мне удобней так )
+- нажимаем Ctrl+F
+- выбираем New Connection (Новое соединение)
+- прописываем ip-адрес ftp-сервера xbox 360 и через двоеточие номер порта - 192.168.0.2:21
+- логин и пароль указываем xbox
+Далее все как на скринах Total Commander, что выше.
+
+PS. Данный способ работает только при запущенном FSD , соответственно невозможно получить доступ по FTP находясь в NXE или играя в игры . Обойти данные неудобства можно установив и сконфигурировав дополнительный плагин для Dashlaunch ftpdll ( более подробно в настройках плагинов для Dashlaunch )
+
+
+
+
+Нет аватаров, вместо этого безжизненный черно-белый силуэт, что делать ?
+
+
+
+
+  тыц
+
+Это от того, друг мой, что нужно их установить, то есть установить поверх своего дэша, такой же, но официальный.
+- скачиваем ТАКУЮ ЖЕ версию официального дэша, что и версия сборки вашего Фрибут\Jtag\RGH
+- папку $systemupdate нужно переименовать в $$ystemupdate.
+- скопировать ее в корневой каталог usb-носителя.
+- перезагрузить консоль , согласиться на обновление.info: Если не подхватилось обновление, убедитесь в том, что к приставке подключен только один девайс usb - флешка.
+Если и так не выходит - то переименовываете $$ystemupdate обратно в $systemupdate, открываете ваш laucnh.ini и ставите параметр noupdater=false, после чего повторяете процедуру обновления, потом врните параметр в true.
+
+Не вздумайте обновиться версию выше, чем версия вашей сборки Фрибут\Jtag\RGH, это делается совсем иначе, позже мы рассмотрим и этот вопрос.
+
+Лучше все же поставить аватары, помимо них, апдейт несет еще и другие полезности и избавляет от глюков с аркадами и видеокодеками.
+Версию вашего дэша можно поглядеть в настойках NXE, в графе сведения о системе.
+
+
+
+
+Как обстоят дела с эмуляторами игровых приставок на Фрибут\Jtag\RGH?
+
+
+
+
+  тыц
+
+MiniFAQ
+
+
+
+
+Описание параметров launch.ini файла, который создает Dashlaunch
+
+
+
+
+  тыц
+
+upd:этот пункт для информации, в новых версиях DL 3.xx вам ничего создавать не надо, достаточно расставить галочки в нужных местах, а раньше приходилось это делать вручную. Какие пaраметры выставлять - см раздел как обновить сборку и установка DL.
+
+Готовые launch.ini: на всякий случай ( не для новичков )
+Для HDD
+Для USB
+Для внутренней памяти слим
+
+Поддерживаемые устройства и пути:
+
+; Hdd:\ внутренний жесткий диск
+; Usb:\ обычная флешка
+; Mu:\ съемная карта памяти
+; UsbMu:\ отформатированная боксом флешка
+; FlashMu:\ внутренняя память (на Jasper Arcade)
+; IntMu:\ устройство памяти в Slim 4G
+; Dvd:\ CD/DVD диск (не рекомендуется использовать)
+
+Пункт [QuickLaunchButtons]:
+___________________________________
+На эти кнопки можно указать путь до необходимого приложения, игры и прочего контента.
+Загрузка будет автоматической, при зажатой соответствующей кнопки на геймпаде
+
+BUT_A =
+BUT_B =
+BUT_X =
+BUT_Y =
+Start =
+Back =
+LBump =____________________________
+
+Default =
+Загрузка по умолчанию, т.е. то что запускается, если вы не будете ничего нажимать, оставьте этот параметр пустым чтобы при старте запускался NXE (стандартный дэшбоард).
+Пример использования: Default = Hdd:\FreeStyle\default.xex
+
+необязательные параметры (не нужно их прописывать вообще):
+Guide =
+; Во время загрузки значение Default может быть заменено в зависимости
+; от того как консоль была включена. Если вы включаете через кнопку на геймпаде
+; или пульте, если задан этот параметр, то он будет использован вместо Default.
+; Учите, что параметр Guide всегда переопределяется если remotenxe = true
+Power =
+; Если вы включаете консоль кнопкой спереди, то будет использован этот параметр
+
+Пункт [Settings]:
+все параметры могут принимать значения false (отключено) или true (включено)
+
+nxemini =
+если установлен в true, то вызвав кнопкой включения панель NXE можно, нажав кнопку Y перезапустить NXE, тем самым выйдя из игры (удобно в играх для старого XBOX), учтите, что потом вы должны отпустить кнопку Y и нажать заданную кнопку в секции [QuickLaunchButtons] или задать то что будет запущено по умолчанию
+По умолчанию используется значение true (включено)
+
+pingpatch =
+если установлен в true, то будет убрано ограничение на ping (необходимо для игры по system link)
+По умолчанию используется значение false (отключено)
+
+contpatch =
+если установлен в true, то ПОЧТИ все Аркады больше не нужно патчить перед запуском
+По умолчанию используется значение false (отключено)
+
+fatalfreeze =
+Обычно, если происходит неисправимая ошибка, то XBOX 360 зависает.
+Если установить этот параметр в false, то вместо зависания XBOX 360 будет перезагружаться или выключаться.
+Если установить в true, то будет заблокирован фильтр необрабатываемых ошибок, который пытается перехватить обрабатываемы критические ошибки и запустить после этого NXE
+По умолчанию используется значение false (отключено)
+
+fatalreboot =
+если пераметр fatalfreeze установлен в false, то установка fatalreboot в true вызовет аппаратную перезагрузку, если установить его в false, то приставка выключится. Учтите, что этот параметр не работает если fatalfreeze установлен в true
+По умолчанию используется значение false (отключено)
+
+safereboot =
+Если пераметр fatalfreeze установлен в false, а fatalreboot установлен true, установка safereboot в true вызовет программную перезагрузку как и планировалось.
+Устанавливайте этот параметр в true ТОЛЬКО В ТОМ СЛУЧАЕ, если в SMC применено исправление blackaddr, иначе при перезагрузке вы прлучите Е71 и повредите память!
+Учтите, что этот параметр не работает если fatalfreeze установлен в true
+По умолчанию используется значение false (отключено)
+
+regionspoof =
+если установлен в true, то удержание RB во время запуска игры, установит регион для игры из подмененного XAM
+По умолчанию используется значение false (отключено)
+
+region =
+если пераметр regionspoof установлен в true, можно здесь указать желаемый регион, например для devkit должен быть установлено region = 0x7fff
+Если не задано, но regionspoof устновлен в true, то по умолчанию используется значение 0x7FFF
+
+dvdexitdash =
+если установлен в false, то при выбросе лотка с диском будет запущено приложение по умолчанию.
+если установлен в true, то будет автоматически запущен NXE
+По умолчанию используется значение false (отключено)
+
+xblaexitdash =
+если установлен в false, то при выходе через меню из Аркад вы вернетесь в программу заданную по умолчанию.
+если установлен в true, то будет автоматически запущен NXE и выбрано меню аркад.
+По умолчанию используется значение false (отключено)
+
+nosysexit =
+если установлен в true, при задании настроек системы, в меню вызываемого кнопкой включения, не выкинет в NXE
+По умолчанию используется значение false (отключено)
+
+nohud =
+если установлен в true, то меню, вызываемое кнопкой включения (большая кнопка Х посередине геймпада), не появлется вообще.
+Учтите, что использование этого параметра влияет вообще на все настройки связанные с этим меню.
+По умолчанию используется значение false (отключено)
+
+noupdater =
+если установлен в true, то консоль защищена от обновления дэшборда (папка System updates)
+если установлен в false, то XBOX 360 может находить обновления системы (папка System updates) на носителях, подключенных к приставке.
+По умолчанию используется значение true (включено)
+
+debugout =
+если установлен в true, то Dash Launch выводит всю отладочную информацию в uart
+По умолчанию используется значение false (отключено)
+
+exchandler =
+если установлен в false, то Dash Launch не будет последним обрабатывать неустранимую ошибку, при этом дамп ошибки в dumpfile также не выполнится.
+По умолчанию используется значение true (включено)
+
+dumpfile =
+; по умолчанию дамп выполняется лишь на UART, если указать здесь имя текстового файла, то дамп будет
+; происходить в него. Путь к файлу задается так же как при программировании кнопок при запуске.
+; если параметр exchandler установлен в false, то текущий параметр не используется.
+; Учите, что используется первый найденный накопитель, поэтому если у вас несколько USB устройств,
+; то будет использовано то, которое первым определилось. Путь к файлу проверяется лишь при загрузке
+; поэтому накопитель нужно вставить до включения консоли и быть включенным в момент ошибки.
+; пример: dumpfile = Usb:\crashlog.txt
+
+bootdelay =
+; этот параметр задает число проверок нажатия кнопок при загрузке и соответственно увеличивая время
+; показа анимации при загрузке приставки.
+; значение 0x5A примерно равно 6 секундам, 0x2A - 2 секунды. Если время проверки будетслишком мало,
+; то нажатие кнопки не будет распознано. Слишком большой интервал, тоже может плохо сказаться.
+; Учтите, это значение указывается в шестнадцатеричном формате. Диапазон от 0 до 0xFFFFFFFF
+По умолчанию используется значение 0x2A (42)
+
+liveblock =
+если установлен в true, то это блокирует определение NDS связанных с LIVE
+По умолчанию используется значение true (включено)
+
+livestrong =
+; если пераметр liveblock установлен в true, то установив livestrong в true вызовет блокировку
+; вообще всех DNS связаных с Microsoft. При этом в приложениях типа FreeStyle будут заблокированы
+; нектороые возможности типа скачивания обложек.
+; Учтите, что если отсутствует файл INI, то этот параметр будет установлен в true!
+По умолчанию используется значение false (отключено)
+
+remotenxe =
+если установлен в true, то при включении приставки с пульта или геймпада загрузится NXE, а не заданная по умолчанию программа.
+Учтите, что включение кнопкой Windows с пульта автоматически загружает NXE и выполняет переход в Медиа Центр вне зависимости от настроек параметра.
+По умолчанию используется значение false (отключено)
+
+hddalive =
+; если установлен в true, то в корне всех USB накопителй через время заданное параметром hddtimer
+; будет искаться файл "alive.txt". Если этот файл существует, то в него будет записано 16 случайных
+; байт данных. Это не даст жесткому диску заснуть и отключиться.
+По умолчанию используется значение false (отключено)
+
+hddtimer =
+число секунд через котрое USB устройства опрашиваютмся на наличие файла "alive.txt"
+если этот параметр не задан, а параметр hddalive установлен в true, буддет использовано значение 210
+
+autoshut =
+когда для отключения консоли вы удерживаете кнопку на геймпаде, то по умолчанию выбран пункт "Отмена"
+если установить параметр autoshut в TRUE, то по умолчанию будет выбран пункт "Выключить консоль"
+!! ВНИМАНИЕ: определение какой диалог модифицировать может выполняться с ошибками !!
+По умолчанию используется значение false (выключено)
+
+xhttp =
+в Dashboard начиная с 14699 присутствуют функции работы с http, но для их использования нужно войти в Live, этот патч убирает это ограничение, установите параметр в false если возникают проблемы
+По умолчанию используется значение true (включено)
+
+tempbcast =
+если параметр tempbcast установлен в true, то данные о температуре будут передаваться по UDP с интервалом установленным параметром temptime на порт установленный параметром tempport
+По умолчанию используется значение false (выключено)
+
+temptime =
+если не задан, то по умолчанию используется значение 10
+
+tempport =
+если не задан, то по умолчанию используется значение 7030
+
+fakelive =
+это что-то из серии, что описано ниже, скорее всего понадобиться в будущем и скорее всего для тех, у кого онлайн профиль и для запуска инди игр.
+
+signnotice =
+попытки заблокировать всплывающие сообщения о входе в Live, типа "Live заблокирован" и подобные.
+По умолчанию используется значение true (включено)
+
+Пункт [Plugins]:
+Здесь указывается путь к имеющимся плагинам, таким как DiskSwap (для запуска многодисковых игр)
+
+Пример:
+[Plugins]
+plugin1 = Hdd:\plugins\swap.xex
+
+
+
+
+Как мне обновить сборку своего Фрибут\Jtag\RGH на актуальную версию ?
+
+
+
+
+  тыц
+
+Cпособы обновления постоянно упрощаются, чуть ниже привел актуальный материал:
+Обновлять ядро на фрибут нужно несколько иначе, для начала нужно подготовить сборку под обновленный дэш от MS. И только потом обновлять официальным.
+Для обновления вам понадобиться программа-флешер и cpukey вашей консоли.
+cpukey можно увидеть и в xell если включить консоль кнопкой eject. Или способом ниже.
+
+cpukey\dvdkey\ревизию мат платы и тип хака можно узнать запустив DL 3.03
+
+
+Вам нужно снять копию вашего нанд флешером, а потом уже на компе подготовить ее к обновлению на оф. дэш от MS. После чего уже обновлятся на дэш от MS, поместив папку "$$ystemUpdate" в корень флешки.
+Если по каким-то причинам обновление не подхватилось - отредактируйте свой файл launch.ini на компе и поставьте в нем параметр noupdate=false вместо true, папка в этом случае должна называться "$SystemUpdate"
+
+upd:весь софт можно найти на LiveCD v2
+в архиве:
+1-Официальное обновление 16197 (SystemUpdate_16197_USB)
+2-Fsd 3.0 rev 58 + русский скин ( все уже в папке FreeStyle)
+3 -J-Runner v02 Beta (283) Core Pack (сборщик)
+4-NAND Flasher 360 for XBOX 360 v1.2.0 ( прошивальщик и снятие копии вашего нанд)
+5-readme - видео инструкция по обновлению на 15574
+для прошивки современных моделей: corona 4gb V2 используйте этот флешер
+
+Видео
+
+info:какой тип хака указывать ?
+j-runer сам определяет тип по вашей копии нанд. Так же в DL3.03 можно глянут инфу.
+
+но на всякий случай инфа: на момент установки фрибут.
+JTAG - традиционный jtag hack (smc) на ядре 2,0 7ххх
+RGH - Xbox Slim с любым ядром и Xbox Fat с ядром = 14699 или ниже
+RGH 2 - для Xbox Fat и Slim с ядром выше 14699 ( 14717, 14719 )
+
+как встроить DL 3.03 в сборку 16197
+
+запускаем J-Runner v02 Beta (283) Core Pack
+1 жмем галочку на Dashlaunch Patches
+2 жмем launch.ini options
+3 прописываем путь до вашей папки с фристайлом и выбираем эти параметры
+4 жмем save
+
+все, dl 3.03 c вашими параметрами уже будет встроен в вашу сборку. ( если вам нужно просто создать launch.ini файл - жмем create )
+(картинка еще от 15574)
+
+затем жмите сreate и файл launch.ini с вашими параметрами будет готов, кидайте его в корень вашего носителя:
+готовые файлы launch.ini: ( на всякий )
+Для HDD
+Для USB
+Для внутренней памяти слим
+
+NEW! если ваша консоль греется или не устраивает t, вы можете принудительно указать t порог в DL3.03, покопавшись в настройках программы. После всех манипуляций - перезагрузка обязательна!
+
+Так же лучше использовать англ версию DL, ибо русская оставляет желать лучшего...
+переключите язык в дэшборде на англ и DL тоже станет англ.
+
+
+
+
+Какие плагины поддерживает Freeboot и для чего они ?
+
+
+
+
+  тыц
+
+Для работы описанных плагинов на вашей консоли должен быть установлен DashLaunch.
+Вы их можете все найти на LiveCD\FSDpluginsConnectX - запуск игр с HDD компьютера по LAN:
+
+  тыц
+
+При помощи данного плагина стало возможным играть с жесткого диска компьютера , расшарив на нем папку с играми для бокса.1. Скачиваем ConnectX
+
+2. Через FTP копируем файл connectx.xex в папку FSD\plugin
+
+3. Теперь по FTP заходим в папку Flash (не путаем с юсб флешкой) и редактируем launch.ini (прописываем плагин)
+Пример:
+
+Код
+plugin1(2;3;4..) = IntMu(hdd, usb):\FSD\Plugins\connectx.xex
+
+4. Внимание все должно быть на английском (пароль и имена).
+Смотрим имя компьютера (например: LG),
+
+4.1 Расшариваем папку: правой кнопкой мыши, общий доступ&gt;открыть общий доступ (если спросит кому, нажимаем всем), (расшариная папка например называеться: xbox).
+
+4.2 Ваше име пользователя, например: admin.
+
+4.3 Ваш пароль, например: pass
+
+5. В консоли, идем в настройки\system settings\plugin
+Смотрим что был коннект
+
+
+5.1 И заполняем все.
+1. имя компьютера (Remote PC Name): LG
+2. расшариная папка (PC Share Name): xbox
+3. имя пользователя (User Name): admin
+4. пароль пользователя (Password): pass
+
+6. Далее Save Settings.
+
+7. Перезапускаем консоль и получаем
+
+
+FtpDll - альтернативный доступ по FTP:
+
+  тыц
+
+Скачиваем архив с плагином отсюда
+Кладем ftpdll.xex из архива в папку , где у вас хранятся плагины .
+Прописываем путь к плагину в launch.ini
+Код
+[Plugins]
+plugin1 = Hdd:\plugins\ftpdll.xex
+
+Перезапускаем консоль . Для подключения по FTP используем порт 7564 .
+
+Например в Total Commander в настройках FTP соединения в строке Сервер [:Порт] адрес бокса указываем таким образом
+
+192.168.1.10:7564
+
+Теперь вы сможете подключаться по FTP к вашей консоли в любой момент времени (а не только при запущенном FSD) , в том числе и при запущенной игре (скорость обмена данными в это время существенно снижается , зато доступ постоянный)
+
+Xbdm - снятие скриншотов на HDD компьютера по LAN:
+
+  тыц
+
+Плагин для снятия скриншотов . За информацию спасибо mad8vadинструкция:
+
+  тыц
+
+Написал тут инструкцию для снятия скриншотов с бокса по нажатию горячих клавиш. XDK не нужен
+Внимание! Могут не запускаться некоторые игры, могут быть зависания. Если что то просто удалите строчку с этим плагином в launch.ini.1. Распаковываем архив куда-нибудь, избегая русских букв в названиях папок, например в "D:\Xbox 360"
+2. Закидываем файл xbdm.xex на устройство памяти Xbox 360, прописываем его в launch.ini в разделе Plugins
+Код
+[Plugins]
+plugin1 = Hdd:\xbdm.xex
+
+3. Перезагружаем консоль
+4. В файле Take_Screenshot.cmd прописываем вместо 192.168.0.28 айпи-адрес вашей консоли
+5. Запускаем Take_Screenshot.cmd и рядом должен появиться скриншот с именем вида "дата.время.bmp"
+6. Устанавливаем AutoHotkey110506_Install.exe, запускаем из меню Пуск
+7. Жмем File-&gt;Edit script, пишем строку
+
+Код
+#a::Run, "D:\Xbox 360\Take_Screenshot.cmd", D:\Xbox 360
+
+#a означает, что скрипт будет запускаться комбинацией клавиш Win+A
+D:\Xbox 360 заменяем на свой путь к распакованным файлам
+
+8. Сохраняем скрипт, закрываем
+9. В программе AutoHotKey жмем File-&gt;Reload script
+10. Проверяем, по нажатию клавиши в вашей папке должен появиться новый скриншот
+
+upd:от mad8vlad.
+Дополнил скрипт для снятия скриншотов, чтобы получались JPG вместо BMP. Нужно скачать программку bmp2jpg и положить рядом со скриптом
+Итоговый скрипт:
+
+Код
+set datetime=%date%.%time&amp;#58;&amp;#58;=.%
+xbcapture.exe /x&amp;#58;192.168.0.28 &amp;#34;D&amp;#58;\Xbox 360\Screenshots\%datetime%.bmp&amp;#34;
+BMP2JPG.exe &amp;#34;D&amp;#58;\Xbox 360\Screenshots\%datetime%.bmp&amp;#34; &amp;#34;D&amp;#58;\Xbox 360\Screenshots\%datetime%.jpg&amp;#34;
+del &amp;#34;D&amp;#58;\Xbox 360\Screenshots\%datetime%.bmp&amp;#34;
+
+AGM Temperature Logging Plugin:
+
+  тыц
+
+ведет лог t все время, даже во время игры, можно поглядеть как прогревается приставка в той или иной игре...
+
+Ссыльна плагин, все как раньше...
+добавляем путь до плагина в ланч ини (HDD:\TemperatureDump.xex)
+TemperatureDump.ini указываем путь лога ( оставить по умолчанию можно)
+Потом можно скопировать temperature log.txt на комп и запустив TemperatureViewer.exe из той папки глянуть t.
+Может еще как-то можно, это все теоритически...я не ставил себе
+
+
+
+
+А что такое Xlink\XBSlink ?
+
+
+
+
+  тыц
+
+info:Чтобы играть по Xlink\XBSlink обязательно нужен комп\ноут.
+Xlink\XBSlink и не предоставляют такого функционала как live.подробный FAQ по Xlink
+
+подрбный FAQ по XBSlink
+
+
+
+
+Надоел вид FSD, можно ли сменить?
+
+
+
+
+  тыц
+
+Да, FSD поддерживает скины, только следует качать их для той версии, которая у вас . К примеру FSD 2.2. качайте скины именно для 2.2, чтоб уж без глюков и крешей.
+Скины бывают 2х типов
+1- папка с файлами
+2-файл с разрешением *.xzp
+Быть они должны в вашей папке FSD, а именно в папке skins
+Активация скинов проходит в 2 этапа
+1-Кидаете скин в папку skins, перезагружаете консоль
+2-В меню FSD ищим вкладку Skin, ставим галочку, жмем reeboot
+В этом же меню есть возможность настройки скинов и выбора тем-клавиши X, Y
+Много скинов можно скачать на этом сайте
+Но все же один я выделю...
+Довольно удобный клон Metro от M$ Поддерживает обои, и много возможностей по кастомизации, быстрый.info: во избежании глюков перед установкой:
+Show Status-Bar on startup MUST be disabled in the default Skin!!!!
+You should also disable to show the weather popup on startup.
+
+upd:русские оболочки.
+
+NEW!!! русская оболочка для FSD 3.0rev58 и сам fsd3
+подробности
+
+ниже оболочки для fsd 2.2 ( не совместимы с fsd 3.xx)
+FSD Default RUS
+
+
+Metro 3.8 RUSВидео ( на видео метро 3,7 )
+
+info:все что не переведено, переводу пока не поддается...Приходилось даже исправлять косяки самих авторов скина, хотя он и финальный, но очень много ссылок в нем с пометкой тест...Так что глюки возможны...
+Перед установкой желательно сделать Clear data или вовсе стереть папку data ручками. Так же желательно сделать сброс скина на default в настройках, так же не желательно входить с онлайн профиля...лучше с офлайн.
+
+За основу был взят англ. вариант и переведен пользователем Cosmaty, за что ему отдельное спасибо!
+
+
+metro 4.0.1 ENG. Kinnect & Homebrew
+
+
+
+
+
+Полезный софт:
+
+
+
+
+  тыц
+
+NEW!!!LiveCD v2
+содержание диска:
+
+  тыц
+
+PC:
+fat32 Format tool
+USBXTAFGUI_v44
+Iso2god1.3.6.
+Xbox Image Browser
+Exiso Gui
+XBOX:
+DL 3.03
+FSD3rev58 (xex\nxe) + rus skin
+xexmenu_v1.1 (xex\nxe)
+UpdateFreeboot:
+J-Runner v02 Beta (283) Core Pack
+NAND Flasher 360 for XBOX 360 v1.2.0
+Simple 360 NAND Flasher 1.2 (corona)
+SystemUpdate_16197_USB
+DL 3.03
+
+LiveCD ( предыдущая версия )
+содержание диска:
+
+  тыц
+
+Apps for PC use:
+Xbox Image Browser .350
+Exiso.sfx (Thanks IXIShadowsIXI for this great gui)
+Iso2god 1.3.6
+YarisSwap 0.9beta3
+Extract-xiso v1.0
+Fat32 format tool 1.0.1.0
+360 Content Manager 2.2
+GaDaBaMa
+Xbox 360 USB Storage Explorer (Xplorer)
+modioApps to launch from XEX Menu:
+FSD 2.2 Installer (includes dashlaunch)
+DashLaunch 2.32
+XM360 2.0d
+NXE2GOD
+hddXfixer
+FFplay
+
+Apps for HDD (To install from NXE):
+FSD 2.2 installer(includes dashlaunch)
+FSD 2.2 (GOD)
+XEX Menu
+NXE2GOD
+Hacked Xbox1 Emulator
+Optional media and ipod support update
+
+FSD Plugins:
+DiskSwaper 1.1
+ConnectX
+FTPdll
+Screenshot plugin
+
+Freboot Update:
+360_Multi_Builder_v0.82
+J-Runer 2.61
+xeBuild-GUI-2.02
+NAND Flasher 360 for XBOX 360 v1.2.0
+rawflash_v4
+SystemUpdate_14719
+XeLL_Reloaded-2stages-v0.991
+DashLaunch 2.32
+
+FSD Skins:
+Metro style 2.1 RUS
+
+
+
+
+Видеокодеки:
+
+
+
+
+  тыц
+
+Идем в LiveCD\Apps to Put on Xbox HDD\VideoCodec\
+Берем оттуда папку FFFE07DF и кидаем ее на hdd бокса в папку \Content\0000000000000000
+Выходим в родной дэш, входим в раздел видеотека, открываем любой файл avi, MP4, Divx and XviD. например, с флешки.
+Кодек от 12.12.2011
+ps
+NXE должен быть полным, с аватарами !Для MKV (только 720p) Существует программа FFplay Она кривовата, часто зависает, но другой просто нет пока что ..Но если ничего не тыкать во время просмотра - то терпимо. Так же есть на LiveCD\Apps for xexmenu\ffplay\
+
+ps
+еще инфа по кодекам
+
+
+
+
+Про профиль и шмот для аватаров
+
+
+
+
+  тыц
+
+За информацию благодарим пользователя cosmaty.
+
+Как сделать оффлайн профиль типа онлайн, т. е. вставить в него XUID.
+Чтобы использовать сакчанный шмот для аватара.
+Извликаем свой профиль (с помощью Modio, Horizon, FTP, Samba или еще как-нибудь).
+Скачиваем старую версию Modio, вот ссылка
+Запускаем, обновить отказываемся и открываем свой профиль.
+Извлекаем из профиля файл Account:
+
+
+Закрываем профиль, жмем на М и переходим:
+
+
+Загружаем извлеченный файл и жмем Decrypt Account (сразу профиль загрузить у меня не получилось):
+
+
+Затем Save Account:
+
+
+Открываем в НЕХ-редакторе файл Account и вводим XUID, например как у меня:
+
+
+Затем вставляем вот эти данные
+02 60 67 6C 50 52 4F 44 00 00 00 00 78 62 6F 78 2E 63 6F 6D 00 00 00 00 00 00 00 00 00 00 00 00 50 41 53 53 50 4F 52 54 2E 4E 45 54 00 00 00 00 00 00 00 00 00 00 00 00 D4 56 2F 04 58 A0 F2 91 93 97 40 7C 5D D2 52 DF 00 00 00 00 00 00 00 00
+с адреса 00000030 по 00000070 и сохраняем:
+
+
+Открываем измененный Account в Account tool в Modio и нажимаем Encrypt Account:
+
+
+Открываем свой профиль и заменяем в нем файл Account:
+
+
+После замены не забываем сохранить:
+
+
+Все теперь возвращаем профиль в бокс и с помощью AvatarFridayPatcherGUI_v1.1 вставляем в шмот свой XUID.
+Если шмот виден и не одевается, то в launch.ini меняем значение:
+contpatch = true на false.
+
+upd:от ROOFus
+Eсть более простой способ поглядеть XUID через fluffi. Это для тех у кого профили были зарегистрированы в live изначально.
+И еще если захотите, чтобы на 2ом профиле и более тоже были шмотки, то по той инструкции от cosmaty Надо чтобы XUID у всех профилей был один, тогда шмотки будут видны на всех профилях. Я долго пытался заставить его видеть шмотки с 2х разных xuid, но без толку, шмотки то увидит А одеть их нельзя будет
+
+
+
+
+Косяки FSD и Фрибут\Jtag\RGH ?
+
+
+
+
+  тыц
+
+Иногда FSD бывает глючит ...появляются краш сообщения переодически, может повисать, может долго загружаться и т.д.
+Самый лучший способ избавиться от косяков это:
+-Последняя актуальна версия версия (сегодня это FSD3 rev58) Даже если глючит и она, то верный способ избавиться от глюков - удалить папку FSD через xexmenu и залить ее занова, повторив все операции по добавлению директорий и тд. Если не поможет, то можно попробовать радикальный способ- форматнуть носитель и занова все поставить. Как правило, функции в настройках FSD Clear Data и Default Settings мало помогают. Еще советую отрубить авто сканирование при старте FSD...Settings\Content settings\Scan Settings\галочку поставить на Disable Auto Scan. Вы всегда можете просканировать директории сами, при добавлении новых игр, нажав Start Manual Scan.
+В FSD поддерживается обновление прямо с консоли, ищите в настройках.
+-Так же иной раз крaши бывают из-за только что добавленных игр, они просто несовместимы или криворуссифицированные или с кривым медиа ID, следует удалить их из списка и с HDD и проверить работу FSD без них, так же краши могут вылетать из-за игр от XBOX1.
+-Вдруг перестала запускаться прога хехменю, снесите папку games c родного hdd, если вы вдруг ее там создавали. Выход - кидайте игры в contnent\16 нолей в год формате.
+-Иногда при включении консоли бывают красные огни, это бывает у многих, не стоит паниковать, выключите, подождите сек 5 и включите снова. Должно помочь. Это связано со схемой хака, она просто не успевает подсунуть процессору ключик, чтобы тот подумал, что все свои )
+-Иногда бывает вылезает ошибка E71 тоже не стоит пугаться, в большинстве случаев это либо софтовая проблема, следует попробовать пересобрать нанд, в других случаях следует обратить внимание на проводочки и саму пайку, ни чего ли не пережато и не замыкается ли где контакт.
+-При установленном регионе "Россия", Wi-Fi работает только в G режиме. Поменяв регион на "США", начинает работать как положенно - в N. ( возможно не у всех )
+Kinnect: конфликт DL и калибровки кинекта. Решается обновлением DL до версии с графическим интерфейсом. (3,03) Выбираем пункт выгрузить Dashlaunch в меню. Выходим в NXE. Делаем калибровку, после этого запускаем DL повторно и загружаем его в память.-Правильная установка RGH у хорошего мастера не вызывает никаких проблем в дальнейшем..
+
+info:Но есть на форуме отзывы и от мастеров с нормальными руками , что джасперы откинули таки коньки с 0022 ошибкой после установки RGH, и на сайте у Ричи тоже подобная тема имеется . И даже на сайте кзекутеров . Так что проблема имеет место быть , не массовая , но всё же. Пусть каждый сам решает , ставить глитч на джаспер или не стоит .
+
+ps у друга как раз сейчас появился джаспер 512 + RGH2 14719, пока все ок, буду наблюдать..
+info:уже почти год прошел, все ок
+
+
+
+Взято с www.xboxland.net
