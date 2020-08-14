@@ -1,7 +1,7 @@
 ---
 layout: post
 title: General purpose icons used everywhere
-date: 2020-08-14 02:30:32
+date: 2020-08-14 03:51:02
 ---
 
 - [Bootstrap Icons](https://github.com/twbs/icons#readme) - SVG icons custom designed and built for Bootstrap components. ([Website](https://icons.getbootstrap.com/))
