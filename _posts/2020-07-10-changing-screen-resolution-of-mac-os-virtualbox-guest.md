@@ -1,8 +1,9 @@
 ---
-layout: post
 title: Changing Screen Resolution of Mac OS VirtualBox Guest
-date: 2020-07-10 07:49:35
+date: 2020-07-10 07:49:35 Z
+layout: post
 ---
+
 The default screen resolution for Mac OS X VirtualBox Guest is 1024×768.\
 Below shows how to change the screen resolution of Mac OS VirtualBox guest running on Windows 10.
 
