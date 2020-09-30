@@ -5,7 +5,7 @@
     - name: Pages
       link: /#
       items:
-        - name: Page With Sidebar 
+        - name: Self-hosting solutions
           link: /page-1/
         - name: Page Without Sidebar
           link: /page-2/
