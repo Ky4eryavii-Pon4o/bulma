@@ -6,7 +6,7 @@ show_sidebar: true
 ---
 
 <h3>Manuals</h3>
-### Hi 🙃 [:space_invader:] 
+### Hi 🙃:space_invader: 
 <!--
 **Ky4eryavii-Pon4o/Ky4eryavii-Pon4o** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
