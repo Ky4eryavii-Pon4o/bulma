@@ -1,7 +1,7 @@
 - name: Pages
   link: /#
   dropdown:
-    - name: Page With Sidebar
+    - name: Self-hostig Solutions
       link: /page-1/
     - name: Page With Contents
       link: /page-with-contents/
