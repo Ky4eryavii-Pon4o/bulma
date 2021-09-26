@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OCS Inventory & OpenVPN
-date: 2021-09-24 07:40:00
+date: 2021-09-26 02:52:05
 ---
 ### **Installation OCS Inventory**
 
@@ -32,8 +32,6 @@ Type the following command into the Terminal:
  sudo apt install apt-transport-https
 ```
 
-
-
  This is done to ensure that your apt supports the https transport. Enter the password as prompted\
 \
 Type the following command into the Terminal: 
@@ -59,6 +57,15 @@ sudo wget -O /etc/apt/sources.list.d/openvpn3.list https://swupdate.openvpn.net/
 
 This will install the proper repository. Replace $DISTRO with the release name depending on your Debian/Ubuntu distribution (the table of release names for each distribution can be found below). In this case, focal is chosen since Ubuntu 20.04 is used\
 \
-Type the following command into the Terminal: sudo apt update\
+Type the following command into the Terminal: 
+
+```
+sudo apt update
+```
+
 \
-Type the following command into the Terminal: sudo apt install openvpn3
+Type the following command into the Terminal: 
+
+```
+sudo apt install openvpn3
+```
