@@ -1,17 +1,15 @@
 ---
-title: Page without sidebar
-subtitle: Demo page without the sidebar
+title: Listen
+subtitle: 🎧 music in my head  
 layout: page
 show_sidebar: false
 ---
 
-This is another sample page showing how a page can look without a sidebar. 
+##### Bassdrive (Drum&Bass)
 
-To hide the sidebar, set the show_sidebar to false in the page's frontmatter
+<img aligh='left' src='https://www.bassdrive.com/images/logo.png' width='200'>
 
-```yml
-title: Page without sidebar
-subtitle: Demo page without the sidebar
-layout: page
-show_sidebar: false
-```
+👾 🎧
+[Archives bassdrive](http://archives.bassdrivearchive.com/ "Archives bassdrive")
+
+------------
