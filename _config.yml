@@ -28,7 +28,7 @@ defaults:
     show_sidebar: true
 tagline: Ride hard die fast
 email: root@patap.org.ua
-description: "Jekyll with bulma theme on GitHub \n"
+description: "Ride hard die fast"
 baseurl: 
 url: it.patap.org.ua
 permalink: pretty
@@ -58,4 +58,4 @@ sass:
   source_dir: _sass
 markdown: kramdown
 highlighter: rouge
-footer_menu: example_footer_menu
+footer_menu: footer_menu
