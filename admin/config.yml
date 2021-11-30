@@ -1,7 +1,7 @@
 backend:
   name: github
   branch: master # Branch to update (optional; defaults to master)
-  repo: Ky4eryavii-Pon4o/bulma-clean-theme
+  repo: Ky4eryavii-Pon4o/bulma
   site_domain: it.patap.org.ua
   
 media_folder: "img/uploads"
