@@ -1,7 +1,7 @@
 ---
 layout: post
 title: После установки Linux нет Wi-Fi (Realtek RTL8821CE)
-thumbnail: https://miro.medium.com/max/465/0*U0yfXi1yFTffpnjm.jpg
+thumbnail: /img/uploads/0_u0yfxi1yftffpnjm.jpg
 date: 2021-12-06 11:41:14
 ---
 Если у вас Wi-Fi адаптер на основе чипсета **Realtek RTL8821CE**, то в Linux по умолчанию отсутствует драйвер для него. В результате ОС не видит устройство, и в панели рядом с часами вовсе отсутствует значок Wi-Fi.
