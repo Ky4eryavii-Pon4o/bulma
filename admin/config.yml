@@ -21,4 +21,11 @@ collections:
       - {label: "Categories", name: "categories", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      
+  - name: "layouts"
+    label: "Layouts"
+    folder: "_layouts"
+    extension: "html"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+      - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}    
