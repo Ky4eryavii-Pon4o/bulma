@@ -5,6 +5,7 @@ backend:
   site_domain: it.patap.org.ua
   
 media_folder: "img/uploads"
+publish_mode: editorial_workflow
 
 collections:
   - name: "post" # Used in routes, e.g. /admin/collections/blog
