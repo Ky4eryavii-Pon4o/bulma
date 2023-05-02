@@ -1,8 +1,8 @@
 - name: Pages
   link: /#
   dropdown:
-    - name: Self-hostig Solutions
-      link: /page-1/
+    - name: 🖥 Self-hostig Solutions
+      link: /selfhost/
     - name: 🎧 Music
       link: /page-2/
     - name: Page With Contents
