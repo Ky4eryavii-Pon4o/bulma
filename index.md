@@ -1,5 +1,5 @@
 ---
-title: Manuals
+title: 📑 Manuals
 subtitle: Web site with manuals
 layout: page
 show_sidebar: true
